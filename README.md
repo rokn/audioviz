@@ -2,7 +2,24 @@
 
 A native macOS audio visualizer for whatever your Mac is playing — in a window, as a click-through screen overlay (edges, menu bar, notch), or as a live desktop wallpaper.
 
-![icon](Support/icon/AppIcon.png)
+<p align="center"><img src="Support/icon/AppIcon.png" width="160" alt="AudioViz icon"></p>
+
+![Bars](docs/bars.png)
+
+| Radial | Mirror |
+|---|---|
+| ![Radial](docs/radial.png) | ![Mirror](docs/mirror.png) |
+| **Line** | **Spectrogram** |
+| ![Line](docs/line.png) | ![Spectrogram](docs/spectrogram.png) |
+
+### Notch & screen overlays
+
+![Notch aura](docs/notch-aura.png)
+![Notch halo](docs/notch-halo.png)
+![Notch island](docs/notch-island.png)
+![Bottom-edge overlay](docs/overlay-bottom.png)
+
+<sub>Images are rendered offline with the app's own renderer from a synthetic 124 BPM track (`docs/render-screenshots.swift`).</sub>
 
 ## Features
 
